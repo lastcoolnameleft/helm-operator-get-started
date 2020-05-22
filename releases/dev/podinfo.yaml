@@ -24,3 +24,4 @@ spec:
       enabled: true
       hosts:
         - dev.52.183.216.179.nip.io
+      path: /
