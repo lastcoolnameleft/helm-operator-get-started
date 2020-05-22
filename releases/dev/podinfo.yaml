@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: lastcoolnameleft/podinfo
-      tag: dev-aqznbrgn
+      tag: dev-qqafs7qm
     replicaCount: 1
     hpa:
       enabled: false
