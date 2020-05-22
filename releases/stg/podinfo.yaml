@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: lastcoolnameleft/podinfo
-      tag: stg-9ij63o4c
+      tag: stg-94khzqvk
     replicaCount: 2
     hpa:
       enabled: true
