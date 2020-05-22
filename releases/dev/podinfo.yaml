@@ -16,12 +16,12 @@ spec:
   values:
     image:
       repository: lastcoolnameleft/podinfo
-      tag: dev-ll3hclf5
+      tag: dev-eb7vq98s
     replicaCount: 1
     hpa:
       enabled: false
     ingress:
       enabled: true
       hosts:
-        - dev.52.183.216.179.nip.io
+      - dev.52.183.216.179.nip.io
       path: /
