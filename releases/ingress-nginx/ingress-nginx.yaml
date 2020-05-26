@@ -11,10 +11,10 @@ spec:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: nginx-ingress
     version: 1.37.0
-    values:
-      controller:
-        service:
-          loadBalancerIP: 10.240.0.42
-          annotations:
-            service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  values:
+    controller:
+      service:
+        loadBalancerIP: 10.240.0.42
+        annotations:
+          service.beta.kubernetes.io/azure-load-balancer-internal: "true"
      
