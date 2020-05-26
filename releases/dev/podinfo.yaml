@@ -25,3 +25,5 @@ spec:
       hosts:
       - dev.52.183.216.179.nip.io
       path: /
+      annotations:
+        service.beta.kubernetes.io/azure-load-balancer-internal: "true"
