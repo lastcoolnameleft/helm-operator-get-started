@@ -23,5 +23,5 @@ spec:
     ingress:
       enabled: true
       hosts:
-      - dev.52.183.216.179.nip.io
+      - dev.40.74.203.127.nip.io
       path: /
